@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroTransport - Передвигайся экологично</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img class="header__logo" src="img/logo.svg" alt="логотип">
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#gyroscooters" class="navigation__link">Гироскутеры</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#monoweels" class="navigation__link">Моноколеса</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#electroscooters" class="navigation__link">Электросамокаты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__link-phone" href="tel:+73517252525">
+                <svg width="24.000000" height="24.000000" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path id="Vector" d="M20.0098 15.38C18.7798 15.38 17.5898 15.1801 16.48 14.8199C16.1299 14.7 15.7402 14.79 15.4702 15.0601L13.8999 17.03C11.0698 15.6801 8.41992 13.13 7.00977 10.2L8.95996 8.54004C9.22998 8.26001 9.31006 7.87 9.2002 7.52002C8.83008 6.41003 8.64014 5.21997 8.64014 3.98999C8.64014 3.44995 8.18994 3 7.6499 3L4.18994 3C3.6499 3 3 3.23999 3 3.98999C3 13.28 10.73 21 20.0098 21C20.7202 21 21 20.37 21 19.8199L21 16.37C21 15.83 20.5498 15.38 20.0098 15.38Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero"/>
+                </svg>
+                <span class="header__phone-number">+7(351)725-25-25</span>
+            </a>
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">
+                    <span class="hero__title-tipe">Electro</span>-trans
+                </h1>
+                <p class="hero__subtitle">Экологичное движение</p>
+                <button class="hero__btn">Узнать больше</button>
+            </div>
+        </section>
+        <section class="product" id="gyroscooters">
+            <div class="container product__container">
+                <img class="product__photo" src="img/gyroscooter.png" alt="Гироскутер">
+                <div class="product__content">
+                    <h2 class="product__title">Гироскутер</h2>
+                    <p class="product__description">Гироскутер  — уличное электрическое транспортное средство, выполненное в форме двух соединённых поперечных площадок для ступней, подвижных относительно друг друга, с колёсами по бокам. Использует электродвигатели, питаемые от электроаккумулятора, и ряд гироскопических датчиков для самобалансировки и поддержания горизонтального положения площадки для ног.</p>
+                    <button class="product__btn">Выбрать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product" id="monoweels">
+            <div class="container product__container">
+                <img class="product__photo" src="img/monoweel.png" alt="Моноколесо">
+                <div class="product__content">
+                    <h2 class="product__title">Моноколесо</h2>
+                    <p class="product__description">Электрический самобалансирующийся уницикл (моноцикл) с одним колесом и расположенными по обе стороны от колеса подножками. Моноколесо является глубокой модернизацией Segway — электрическое самобалансирующееся транспортное средство компании Segway с двумя колёсами, расположенными по обе стороны от водителя, внешне напоминающее колесницу. Изобретено Шейном Ченом.</p>
+                    <button class="product__btn">Выбрать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product" id="electroscooters">
+            <div class="container product__container">
+                <img class="product__photo" src="img/electroscooter.png" alt="Электросамокат">
+                <div class="product__content">
+                    <h2 class="product__title">Электросамокат</h2>
+                    <p class="product__description">Работает электросамокат следующим образом. Аккумуляторная батарея приводит в действие электродвигатель, конкретные параметры его работы зависят от установленного режима. Режимом работы управляет контроллер, который ориентируется на команды водителя, отдаваемые с рукоятки акселератора и информацию с датчиков. Электродвигатель формирует вращательный момент, передающийся на колесо. Колеса вращаются, самокат движется, вы едете.</p>
+                    <button class="product__btn">Выбрать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts contacts-section">
+            <div class="container">
+                <h2 class="contacts__title">Как нас найти?</h2>
+            </div>
+            <div class="contacts__wrap">
+                <div class="container contacts__container"> 
+                    <div class="contacts__column">
+                        <h3 class="contacts__office">
+                            г. Челябинск, пр. Ленина, д.&nbsp;26&nbsp;"А",&nbsp;оф.&nbsp;503
+                        </h3>
+                    
+                        <div class="contacts__list">
+                            <a class="contacts__link" href="tel:+73517252525">
+                                <svg width="24.000000" height="24.000000" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Vector" d="M20.01 15.38C18.78 15.38 17.5901 15.18 16.48 14.82C16.1299 14.7 15.74 14.79 15.47 15.06L13.8999 17.03C11.0701 15.68 8.41992 13.13 7.01001 10.2L8.95996 8.53998C9.22998 8.26001 9.31006 7.87 9.19995 7.52002C8.83008 6.40997 8.63989 5.21997 8.63989 3.98999C8.63989 3.45001 8.18994 3 7.6499 3L4.18994 3C3.6499 3 3 3.23999 3 3.98999C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82L21 16.37C21 15.83 20.55 15.38 20.01 15.38Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                                <span>+7(351)725-25-25</span>
+                            </a>
+                            <a class="contacts__link" href="mailto:ETrans@gmail.com">
+                                <svg width="20.000000" height="16.000000" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Vector" d="M18 0L2 0C0.899902 0 0.0100098 0.900024 0.0100098 2L0 14C0 15.1 0.899902 16 2 16L18 16C19.1001 16 20 15.1 20 14L20 2C20 0.900024 19.1001 0 18 0ZM17.6001 4.25L10.53 8.66998C10.21 8.87 9.79004 8.87 9.46997 8.66998L2.3999 4.25C2.2998 4.19373 2.21191 4.11768 2.14185 4.02643C2.07178 3.93524 2.021 3.83075 1.99268 3.71936C1.96411 3.60797 1.9585 3.49194 1.97607 3.3783C1.9939 3.26465 2.03442 3.15582 2.09521 3.05829C2.15625 2.96082 2.23633 2.87665 2.33081 2.81097C2.42505 2.74536 2.53198 2.69952 2.64453 2.67627C2.75708 2.65308 2.87329 2.65295 2.98584 2.67596C3.09863 2.69891 3.20557 2.74451 3.30005 2.81L10 7L16.7 2.81C16.7944 2.74451 16.9014 2.69891 17.0142 2.67596C17.1267 2.65295 17.2429 2.65308 17.3555 2.67627C17.468 2.69952 17.575 2.74536 17.6692 2.81097C17.7637 2.87665 17.8438 2.96082 17.9048 3.05829C17.9656 3.15582 18.0061 3.26465 18.0239 3.3783C18.0415 3.49194 18.0359 3.60797 18.0073 3.71936C17.979 3.83075 17.9282 3.93524 17.8582 4.02643C17.7881 4.11768 17.7002 4.19373 17.6001 4.25Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                                <span class="contacts__link-text">ETrans@gmail.com</span>
+                            </a>
+                        </div>
+                        <ul class="contacts__social cocial">
+                            <li>
+                                <a href="#" class="social__link">
+                                    <svg width="46.000000" height="46.000000" viewbox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <circle id="Ellipse 1" cx="23.000000" cy="23.000000" r="23.000000" fill="currentColor" fill-opacity="1.000000"/>
+                                        <path id="Vector" d="M38.5239 13.5827C37.4106 14.076 36.2146 14.4094 34.9573 14.56C36.2546 13.7838 37.2251 12.562 37.688 11.1227C36.469 11.8467 35.135 12.3563 33.7439 12.6293C32.8083 11.6305 31.5693 10.9684 30.219 10.746C28.8687 10.5235 27.4827 10.7531 26.2764 11.399C25.0698 12.045 24.1104 13.0712 23.5469 14.3183C22.9834 15.5654 22.8474 16.9637 23.1599 18.296C20.6902 18.172 18.2742 17.5301 16.0686 16.4119C13.8628 15.2937 11.917 13.7242 10.3572 11.8054C9.82397 12.7253 9.51733 13.792 9.51733 14.928C9.5166 15.9507 9.76855 16.9577 10.2505 17.8597C10.7324 18.7617 11.4294 19.5308 12.28 20.0987C11.2937 20.0673 10.3291 19.8008 9.46655 19.3214L9.46655 19.4014C9.46655 20.8357 9.96265 22.2258 10.8708 23.336C11.7791 24.4462 13.0435 25.2079 14.4492 25.492C13.5344 25.7396 12.575 25.7761 11.644 25.5987C12.0405 26.8328 12.8132 27.912 13.8538 28.6852C14.8943 29.4584 16.1504 29.8869 17.4465 29.9107C15.2463 31.6379 12.5291 32.5748 9.73193 32.5707C9.23633 32.5708 8.74146 32.5419 8.24927 32.484C11.0886 34.3096 14.3938 35.2784 17.7693 35.2747C29.196 35.2747 35.4426 25.8107 35.4426 17.6027C35.4426 17.336 35.436 17.0667 35.4238 16.8C36.6389 15.9213 37.6877 14.8332 38.5212 13.5867L38.5239 13.5827Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social__link">
+                                    <svg width="46.000000" height="46.000000" viewbox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <circle id="Ellipse 2" cx="23.000000" cy="23.000000" r="23.000000" fill="currentColor" fill-opacity="1.000000"/>
+                                        <rect id="fa-brands:telegram-plane" width="28.000000" height="32.000000" transform="translate(9.000000 7.000000)" fill="#FFFFFF" fill-opacity="0"/>
+                                            <path id="Vector" d="M36.9187 13.1624L32.6936 33.0875C32.375 34.4937 31.5437 34.8437 30.3625 34.1812L23.925 29.4374L20.8186 32.4249C20.4749 32.7687 20.1875 33.0562 19.5249 33.0562L19.9875 26.4999L31.9187 15.7187C32.4375 15.2562 31.8062 14.9999 31.1125 15.4625L16.3625 24.7499L10.0125 22.7625C8.6311 22.3312 8.6062 21.3812 10.3 20.7187L35.1375 11.15C36.2874 10.7187 37.2937 11.4062 36.9187 13.1624Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contacts__map-wraper">
+                        <div class="contacts__map" id="map">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <img class="footer__logo" src="img/logo.svg" alt="логотип">
+            <div class="footer__columns">
+                <div class="footer__column">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#gyroscooters" class="footer__link">Гироскутеры</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#monoweels" class="footer__link">Моноколеса</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#electroscooters" class="footer__link">Электросамокаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column"> 
+                    <h3 class="footer__title">Адрес магазина</h3>
+                    <p class="footer__decvription">г. Челябинск, пр. Ленина, д.&nbsp;26&nbsp;"А",&nbsp;оф.&nbsp;503</p>
+                </div>
+                <div class="footer__column"> 
+                    <h3 class="footer__title">Контакты</h3>
+    
+                    <div class="contacts__list contacts__list_footer ">
+                        <a class="contacts__link" href="tel:+73517252525">
+                            +7(351)725-25-25
+                        </a>
+                        <a class="contacts__link" href="mailto:ETrans@gmail.com">
+                            ETrans@gmail.com
+                        </a>
+                        <ul class="contacts__social cocial">
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <svg width="46.000000" height="46.000000" viewbox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <circle id="Ellipse 1" cx="23.000000" cy="23.000000" r="23.000000" fill="currentColor" fill-opacity="1.000000"/>
+                                        <path id="Vector" d="M38.5239 13.5827C37.4106 14.076 36.2146 14.4094 34.9573 14.56C36.2546 13.7838 37.2251 12.562 37.688 11.1227C36.469 11.8467 35.135 12.3563 33.7439 12.6293C32.8083 11.6305 31.5693 10.9684 30.219 10.746C28.8687 10.5235 27.4827 10.7531 26.2764 11.399C25.0698 12.045 24.1104 13.0712 23.5469 14.3183C22.9834 15.5654 22.8474 16.9637 23.1599 18.296C20.6902 18.172 18.2742 17.5301 16.0686 16.4119C13.8628 15.2937 11.917 13.7242 10.3572 11.8054C9.82397 12.7253 9.51733 13.792 9.51733 14.928C9.5166 15.9507 9.76855 16.9577 10.2505 17.8597C10.7324 18.7617 11.4294 19.5308 12.28 20.0987C11.2937 20.0673 10.3291 19.8008 9.46655 19.3214L9.46655 19.4014C9.46655 20.8357 9.96265 22.2258 10.8708 23.336C11.7791 24.4462 13.0435 25.2079 14.4492 25.492C13.5344 25.7396 12.575 25.7761 11.644 25.5987C12.0405 26.8328 12.8132 27.912 13.8538 28.6852C14.8943 29.4584 16.1504 29.8869 17.4465 29.9107C15.2463 31.6379 12.5291 32.5748 9.73193 32.5707C9.23633 32.5708 8.74146 32.5419 8.24927 32.484C11.0886 34.3096 14.3938 35.2784 17.7693 35.2747C29.196 35.2747 35.4426 25.8107 35.4426 17.6027C35.4426 17.336 35.436 17.0667 35.4238 16.8C36.6389 15.9213 37.6877 14.8332 38.5212 13.5867L38.5239 13.5827Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <svg width="46.000000" height="46.000000" viewbox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <circle id="Ellipse 2" cx="23.000000" cy="23.000000" r="23.000000" fill="currentColor" fill-opacity="1.000000"/>
+                                        <rect id="fa-brands:telegram-plane" width="28.000000" height="32.000000" transform="translate(9.000000 7.000000)" fill="#FFFFFF" fill-opacity="0"/>
+                                            <path id="Vector" d="M36.9187 13.1624L32.6936 33.0875C32.375 34.4937 31.5437 34.8437 30.3625 34.1812L23.925 29.4374L20.8186 32.4249C20.4749 32.7687 20.1875 33.0562 19.5249 33.0562L19.9875 26.4999L31.9187 15.7187C32.4375 15.2562 31.8062 14.9999 31.1125 15.4625L16.3625 24.7499L10.0125 22.7625C8.6311 22.3312 8.6062 21.3812 10.3 20.7187L35.1375 11.15C36.2874 10.7187 37.2937 11.4062 36.9187 13.1624Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    </svg>
+                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copyright">© E-Trans, 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
